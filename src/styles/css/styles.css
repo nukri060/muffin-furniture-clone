@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.control-panel {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.control-panel button {
+  border: none;
+}
+.control-panel input {
+  width: 450px;
+  height: 30px;
+}
+.control-panel .page-name {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}/*# sourceMappingURL=styles.css.map */
