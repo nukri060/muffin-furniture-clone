@@ -1,25 +1,46 @@
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-}
-
 .control-panel {
+  margin: auto;
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 .control-panel button {
   border: none;
 }
 .control-panel input {
-  width: 450px;
-  height: 30px;
+  padding: 10px 350px 10px 40px;
+  font-size: 15px;
+  background-color: #F5F5F5;
+  color: #0B3954;
+  border: none;
+  border-radius: 6px;
 }
 .control-panel .page-name {
   font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
+}
+.control-panel .user-details {
+  display: flex;
+  gap: 20px;
+  margin-left: 60px;
+}
+.control-panel .user-details img {
+  width: 25px;
+}
+.control-panel .user-details .cash-details {
+  display: flex;
+  gap: 20px;
+}
+.control-panel .user-details .cash-details .amount {
+  font-weight: 600;
+  color: #0B3954;
+  font-size: 18px;
+  font-weight: bold;
+}
+.control-panel .user-details .account {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=styles.css.map */
