@@ -1,0 +1,26 @@
+@import '../../abstracts/variables';
+
+.recommendation {
+  flex: none;
+
+  @media (min-width: 768px) {
+    width: $width-recommendation;
+  }
+
+  .title {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-bold;
+    margin-bottom: $margin-small;
+  }
+
+  .item-description {
+    font-size: $font-size-small;
+    margin-bottom: $margin-small;
+  }
+
+  .price {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-bold;
+    color: $base-color;
+  }
+} 

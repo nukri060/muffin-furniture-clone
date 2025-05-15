@@ -1,0 +1,12 @@
+@import '../../abstracts/variables';
+
+.navigation-menu {
+  margin: auto;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+} 

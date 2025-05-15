@@ -1,23 +1,12 @@
-// _navigation-menu.scss
-@import '../abstracts/variables';
-@import './navigation';
+@import '../../abstracts/variables';
+@import './base';
 @import './category-item';
 @import './dropdown';
 @import './recommendation';
 
-.navigation-menu {
-  margin: auto;
-}
-
 .categories {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-
   li {
     @extend .category-item;
-    position: relative;
 
     .dropdown {
       @extend .dropdown;
@@ -32,4 +21,4 @@
       }
     }
   }
-}
+} 
