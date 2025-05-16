@@ -1,2 +1,11 @@
 @import 'layout/header';
 @import 'components/navbar';
+@import 'layout/hero-setion';
+
+* {
+    font-family: "Sora";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+

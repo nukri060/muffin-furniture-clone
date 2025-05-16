@@ -1,9 +1,9 @@
 // _navigation-menu.scss
 @import '../abstracts/variables';
 @import './navigation';
-@import './category-item';
-@import './dropdown';
-@import './recommendation';
+@import '../components/navigation/category-item';
+@import '../components/navigation/dropdown';
+@import '../components/navigation/recommendation';
 
 .navigation-menu {
   margin: auto;
