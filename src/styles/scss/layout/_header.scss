@@ -1,5 +1,10 @@
 @import '../abstracts/variables';
 
+
+header {
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.05);
+  padding-top: 12px;
+}
 .control-panel {
   margin: auto;
   display: flex;
@@ -8,6 +13,8 @@
   align-items: center;
   justify-content: center;
   margin-top: $margin-large;
+  margin-bottom: 15px;
+
 
   button {
     border: $button-border;
