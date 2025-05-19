@@ -61,7 +61,7 @@
     align-items: center;
 
     .items-list {
-      margin-top: 0px;
+      margin-top: 100px;
       display: flex;
       justify-content: space-around;
       gap: 30px;
@@ -74,7 +74,6 @@
       text-align: center;
       list-style: none;
       padding: 40px;
-      margin-top: 100px;
       border-radius: 25px;
       background-color: #f9f9f9;
       box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
