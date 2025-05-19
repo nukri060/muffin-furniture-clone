@@ -462,7 +462,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 1200px;
+  margin-bottom: 128px;
 }
 .furniture-showcases div {
   width: 550px;
@@ -490,6 +490,54 @@ header {
 }
 .furniture-showcases .kitchen {
   background-image: url("../../assets/images/kitchen-background.png");
+}
+
+.featured-promo {
+  display: flex;
+  justify-content: center;
+}
+.featured-promo .promo-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.featured-promo .promo-text {
+  width: 25%;
+}
+.featured-promo .promo-text .promo-caption {
+  margin-bottom: 20px;
+}
+.featured-promo .promo-text button {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ffb128;
+  font-family: Sora;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  padding: 15px 35px 15px 35px;
+  border-width: 0px;
+  border-radius: 80px;
+}
+.featured-promo .promo-text .catchphrase {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #0b3954;
+  margin-bottom: 20px;
+}
+.featured-promo .promo-text h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #0b3954;
+  margin-bottom: 20px;
 }
 
 * {
