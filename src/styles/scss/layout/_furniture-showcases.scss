@@ -1,17 +1,21 @@
 .furniture-showcases {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    // gap: 20px;
     margin-bottom: 128px;
 
-    div {
-        width: 550px;
-        height: 600px;
+    .environments {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+        padding: 20px;
+    }
+    li {
         border-radius: 25px;
-        padding-top: 400px;
+        width: 100%;
+        padding-top: 460px;
         padding-left: 50px;
+        padding-bottom: 60px;
         color: white;
+        background-size: cover;
     }
 
     p {

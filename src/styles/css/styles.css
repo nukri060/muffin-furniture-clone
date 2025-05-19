@@ -459,18 +459,23 @@ header {
 }
 
 .furniture-showcases {
+  margin-bottom: 128px;
+}
+.furniture-showcases .environments {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 128px;
+  gap: 50px;
+  padding: 20px;
 }
-.furniture-showcases div {
-  width: 550px;
-  height: 600px;
+.furniture-showcases li {
   border-radius: 25px;
-  padding-top: 400px;
+  width: 100%;
+  padding-top: 460px;
   padding-left: 50px;
+  padding-bottom: 60px;
   color: white;
+  background-size: cover;
 }
 .furniture-showcases p {
   margin-bottom: 30px;
@@ -493,8 +498,7 @@ header {
 }
 
 .featured-promo {
-  margin-bottom: 1200px;
-  padding-bottom: 120px;
+  margin-bottom: 128px;
   text-align: center;
 }
 .featured-promo .promo-intro {
