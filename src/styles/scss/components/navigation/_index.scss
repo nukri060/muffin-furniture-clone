@@ -8,6 +8,10 @@
   li {
     @extend .category-item;
 
+    &:hover > a span {
+      color: #ffb128;
+    }
+
     .dropdown {
       @extend .dropdown;
     }
@@ -15,10 +19,10 @@
     &:hover .dropdown {
       display: flex;
       flex-direction: column;
+    }
 
-      @media (min-width: 768px) {
-        flex-direction: row;
-      }
+    a:hover .fa-chevron-right {
+      color: #ffb128;
     }
   }
-} 
+}
