@@ -569,7 +569,7 @@ header {
   margin-bottom: 40px;
   color: #0B3954;
 }
-.featured-promo button {
+.featured-promo .items-examples-representation button {
   color: #FFB128;
   border: 1px solid #E0E4EF;
   background-color: #FFFFFF;
@@ -580,6 +580,78 @@ header {
   letter-spacing: 0px;
   padding: 15px 35px 15px 35px;
   border-radius: 80px;
+  margin-top: 30px;
+}
+.featured-promo .monthly-announcement {
+  background-color: #FFB128;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 25px;
+}
+.featured-promo .monthly-announcement .announcement-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.featured-promo .monthly-announcement .announcement-header img {
+  margin-right: 150px;
+}
+.featured-promo .monthly-announcement .announcement-header .announcement-header-text {
+  width: 400px;
+  padding-bottom: 100px;
+}
+.featured-promo .monthly-announcement .announcement-header .announcement-header-text p {
+  padding-top: 50px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.featured-promo .monthly-announcement .announcement-header .announcement-header-text h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #0b3954;
+  margin-bottom: 30px;
+}
+.featured-promo .monthly-announcement .announcement-header .announcement-header-text button {
+  background-color: #0b3954;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  padding: 15px 35px 15px 35px;
+  border-width: 0px;
+  border-radius: 80px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.featured-promo .monthly-announcement .announcement-footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 80px;
+}
+.featured-promo .monthly-announcement .announcement-footer ul li {
+  display: flex;
+  gap: 20px;
+}
+.featured-promo .monthly-announcement .announcement-footer ul li .number {
+  font-size: 35px;
+}
+.featured-promo .monthly-announcement .announcement-footer ul li .text-part {
+  width: 200px;
+  text-align: left;
+}
+.featured-promo .monthly-announcement .announcement-footer ul li .text-part p {
+  margin-bottom: 10px;
 }
 
 * {
