@@ -43,13 +43,22 @@
       gap: 50px;
       margin-left: 520px;
 
+      .products-amount, .company-age {
+        display: flex;
+        align-items: center;
+      }
+
       .text-wrapper {
+        margin-left: 20px;
         p:first-child {
           font-size: 24px;
           line-height: 32px;
           font-weight: 700;
           letter-spacing: 0px;
           color: #0b3954;
+        }
+        p:last-child {
+          color: #5c676d;
         }
       }
     }
@@ -70,6 +79,7 @@
     img {
       width: 80px;
     }
+
     li {
       text-align: center;
       list-style: none;
@@ -78,6 +88,14 @@
       background-color: #f9f9f9;
       box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
       border-radius: 32px 32px 32px 32px;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #FFFFFF;
+        box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.08);
+        cursor: pointer;
+      }
+
       p {
         font-size: 20px;
         line-height: 28px;

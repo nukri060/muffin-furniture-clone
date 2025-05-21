@@ -20,7 +20,7 @@
   li {
     @extend .category-item;
     position: relative;
-    margin-bottom: 5px;
+    // margin-bottom: 5px;
 
     .dropdown {
       @extend .dropdown;

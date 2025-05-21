@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
 }
+
 .hero-content-wrapper {
     display: flex;
     align-items: center;
@@ -36,7 +37,7 @@
         font-weight: 700;
         text-transform: uppercase;
         text-wrap: wrap;
-                margin-bottom: 25px;
+        margin-bottom: 25px;
     }
 
     .cta-buttons {
@@ -54,6 +55,13 @@
             visibility: visible;
             border-width: 0px;
             margin-right: 25px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: rgb(255, 255, 255);
+                color: rgb(255, 177, 40);
+                cursor: pointer;
+            }
         }
 
         button:last-child {
@@ -70,6 +78,13 @@
             transform: translate(0px);
             visibility: visible;
             border-width: 0px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: rgb(255, 177, 40);
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+            }
         }
     }
 }

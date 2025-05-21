@@ -11,12 +11,16 @@
         margin: auto;
         margin-bottom: 50px;
 
+        img {
+            width: 700px;
+        }
+
         .promo-text {
-            width: 25%;
+            width: 30%;
             text-align: left;
 
             .promo-caption {
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
 
             button {
@@ -31,6 +35,11 @@
                 padding: 15px 35px 15px 35px;
                 border-width: 0px;
                 border-radius: 80px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #0b3954;
+                }
             }
 
             .catchphrase {
@@ -40,7 +49,7 @@
                 font-weight: 600;
                 letter-spacing: 0px;
                 color: #0b3954;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
 
             h2 {
@@ -50,7 +59,7 @@
                 letter-spacing: 0px;
                 text-transform: uppercase;
                 color: #0b3954;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
             }
         }
     }
@@ -70,15 +79,36 @@
             list-style: none;
             text-align: center;
             border-radius: 25px;
+            position: relative;
+
+            .discount {
+                padding: 4px;
+                border-radius: 4px;
+                font-size: 12px;
+                background-color: #ffb128;
+                position: absolute;
+                top: 36px;
+                left: 45px;
+                text-align: center;
+                color: #ffff;
+            }
 
             img {
                 margin: 40px;
                 margin-bottom: 80px;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
 
             .title {
                 margin-bottom: 40px;
-                color: #0B3954;
+                color: #0b3954;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
 
@@ -94,13 +124,19 @@
             padding: 15px 35px 15px 35px;
             border-radius: 80px;
             margin-top: 30px;
+
+            &:hover {
+                cursor: pointer;
+                color: #ffffff;
+                background-color: #FFB128;
+            }
         }
     }
 
 
 
     .monthly-announcement {
-        background-color:  #FFB128;
+        background-color: #FFB128;
         max-width: 1200px;
         margin: auto;
         padding: 30px;
@@ -108,13 +144,19 @@
 
         .announcement-header {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             text-align: left;
             margin-bottom: 50px;
 
+            .announcement-header-content-wrapper {
+                display: flex;
+            }
+
             img {
-                margin-right: 150px;
+                width: 450px;
+                margin-left: 50px;
+                margin-right: 50px;
             }
 
             .announcement-header-text {
@@ -128,7 +170,8 @@
                     font-weight: 600;
                     letter-spacing: 0px;
                     text-transform: uppercase;
-                    margin-bottom: 30px;
+                    margin-bottom: 15px;
+                    color: #ffff;
                 }
 
                 h2 {
@@ -136,7 +179,7 @@
                     line-height: 55px;
                     font-weight: 700;
                     letter-spacing: 0px;
-                    color: #0b3954;
+                    color: #ffff;
                     margin-bottom: 30px;
                 }
 
@@ -151,6 +194,13 @@
                     border-radius: 80px;
                     color: #FFFFFF;
                     text-transform: uppercase;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: #0b3954;
+                        background-color: #ffffff;
+
+                    }
                 }
             }
         }
@@ -168,14 +218,24 @@
                     gap: 20px;
                     color: #FFFFFF;
 
+                    &:hover {
+                        transform: scale(1.04);
+                    }
+
                     .number {
                         font-size: 35px;
                     }
+
                     .text-part {
                         width: 200px;
                         text-align: left;
-                        p {
-                            margin-bottom: 10px;
+
+                        .items-title {
+                            font-size: 20px;
+                            line-height: 28px;
+                            font-weight: 600;
+                            letter-spacing: 0px;
+                            margin-bottom: 20px;
                         }
                     }
                 }
