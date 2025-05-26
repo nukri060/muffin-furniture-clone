@@ -3,9 +3,17 @@
   margin-bottom: 120px;
 
   .short-review {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: min(20px, 10%);
+    // max-width: 100%;
+    // max-width: 1200px;
+    margin: auto;
     gap: 120px;
 
     .product-count {
@@ -41,7 +49,7 @@
     .indicators {
       display: flex;
       gap: 50px;
-      margin-left: 520px;
+      // margin-left: 520px;
 
       .products-amount, .company-age {
         display: flex;
@@ -68,11 +76,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 
     .items-list {
+      max-width: 100%;
       margin-top: 100px;
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1200px;
       gap: 30px;
     }
 
